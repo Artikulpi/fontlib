@@ -1,0 +1,309 @@
+/*  ==============================================
+    GENERAL  STYLES    
+    =============================================*/
+    @font-face {
+       font-family: Lato-Regular;
+       src: url(../fonts/Lato/Lato-Regular.ttf);
+       font-style:normal;
+       font-weight:normal;
+   }
+   @font-face {
+       font-family: Aller_Rg;
+       src: url(../fonts/Aller/Aller_Rg.ttf);
+       font-style:normal;
+       font-weight:normal;
+   }
+   @font-face {
+       font-family: Atlantic_Cruise-Demo;
+       src: url(../fonts/Atlantic_Cruise/Atlantic_Cruise-Demo.ttf);
+       font-style:normal;
+       font-weight:normal;
+   }
+   @font-face {
+       font-family: BebasNeue;
+       src: url(../fonts/BebasNeue/BebasNeue.ttf);
+       font-style:normal;
+       font-weight:normal;
+   }
+   @font-face {
+       font-family: Bellerose;
+       src: url(../fonts/Bellerose_Light_1_0/Bellerose.ttf);
+       font-style:normal;
+       font-weight:normal;
+   }
+   @font-face {
+       font-family: CODE_Light;
+       src: url(../fonts/Code-Light/CODE_Light.ttf);
+       font-style:normal;
+       font-weight:normal;
+   }
+   @font-face {
+       font-family: DeckerB;
+       src: url(../fonts/Decker_Bold/DeckerB.ttf);
+       font-style:normal;
+       font-weight:normal;
+   }
+   @font-face {
+       font-family: DejaVuSans;
+       src: url(../fonts/DejaVu_Sans/DejaVuSans.ttf);
+       font-style:normal;
+       font-weight:normal;
+   }
+   @font-face {
+       font-family: barselona;
+       src: url(../fonts/F_C__BARCELONA/barselona.ttf);
+       font-style:normal;
+       font-weight:normal;
+   }
+   @font-face {
+       font-family: monofonto;
+       src: url(../fonts/Monofonto-Regular/monofonto.ttf);
+       font-style:normal;
+       font-weight:normal;
+   }
+   @font-face {
+       font-family: nk57-monospace-sc-bk;
+       src: url(../fonts/NK57MonospaceScBk-Regular/nk57-monospace-sc-bk.ttf);
+       font-style:normal;
+       font-weight:normal;
+   }
+   @font-face {
+       font-family: OpenSans-Regular;
+       src: url(../fonts/Open_Sans/OpenSans-Regular.ttf);
+       font-style:normal;
+       font-weight:normal;
+   }
+   @font-face {
+       font-family: Oswald;
+       src: url(../fonts/Oswald/Oswald.ttf);
+       font-style:normal;
+       font-weight:normal;
+   }
+   @font-face {
+       font-family: PTM55FT;
+       src: url(../fonts/PT_Mono/PTM55FT.ttf);
+       font-style:normal;
+       font-weight:normal;
+   }
+   @font-face {
+       font-family: Queen_of_Camelot_Regular;
+       src: url(../fonts/Queen_of_Camelot/Queen_of_Camelot_Regular.ttf);
+       font-style:normal;
+       font-weight:normal;
+   }
+   @font-face {
+       font-family: Resident_Evil_Large;
+       src: url(../fonts/Resident_Evil/Resident_Evil_Large.ttf);
+       font-style:normal;
+       font-weight:normal;
+   }
+   @font-face {
+       font-family: Roboto-Light;
+       src: url(../fonts/Roboto_Light/Roboto-Light.ttf);
+       font-style:normal;
+       font-weight:normal;
+   }
+   @font-face {
+       font-family: Skater_Girls_Rock;
+       src: url(../fonts/Skater_Girls_Rock/Skater_Girls_Rock.ttf);
+       font-style:normal;
+       font-weight:normal;
+   }
+   @font-face {
+       font-family: transfrm;
+       src: url(../fonts/Transformers/transfrm.ttf);
+       font-style:normal;
+       font-weight:normal;
+   }
+   @font-face {
+       font-family: UbuntuMono-R;
+       src: url(../fonts/Ubuntu_Mono/UbuntuMono-R.ttf);
+       font-style:normal;
+       font-weight:normal;
+   }
+   @font-face {
+       font-family: UKIJTuT;
+       src: url(../fonts/UKIJ_Tuz_Tom/UKIJTuT.ttf);
+       font-style:normal;
+       font-weight:normal;
+   }
+   @font-face {
+       font-family: unispace_bd;
+       src: url(../fonts/Unispace-Bold/unispace_bd.ttf);
+       font-style:normal;
+       font-weight:normal;
+   }
+   body {
+     font-family: 'Lato-Regular', sans-serif;
+     line-height:25px;
+     font-size:14px;
+     padding: 0px;
+     height: 100%;
+     background-repeat: no-repeat;
+     background: #00BFA5;
+ }
+
+
+ .p1 {
+    font-family: Lato-Regular;
+    -webkit-font-smoothing: antialiased;
+}
+
+.p2 {
+    font-family: Aller_Rg;
+    -webkit-font-smoothing: antialiased;
+}
+.p3 {
+    font-family: Atlantic_Cruise-Demo;
+    -webkit-font-smoothing: antialiased;
+}
+.p4 {
+    font-family: BebasNeue;
+    -webkit-font-smoothing: antialiased;
+}
+.p5 {
+    font-family: Bellerose;
+    -webkit-font-smoothing: antialiased;
+}
+.p6 {
+    font-family: CODE_Light;
+    -webkit-font-smoothing: antialiased;
+}
+.p7 {
+    font-family: DeckerB;
+    -webkit-font-smoothing: antialiased;
+}
+.p8 {
+    font-family: DejaVuSans;
+    -webkit-font-smoothing: antialiased;
+}
+.p9 {
+    font-family: barselona;
+    -webkit-font-smoothing: antialiased;
+}
+.p10 {
+    font-family: monofonto;
+     -webkit-font-smoothing: antialiased;
+}
+.p11 {
+    font-family: nk57-monospace-sc-bk;
+     -webkit-font-smoothing: antialiased;
+}
+.p12 {
+    font-family: OpenSans-Regular;
+     -webkit-font-smoothing: antialiased;
+}
+.p13 {
+    font-family: Oswald;
+     -webkit-font-smoothing: antialiased;
+}
+.p14 {
+    font-family: PTM55FT;
+     -webkit-font-smoothing: antialiased;
+}
+.p15 {
+    font-family: Queen_of_Camelot_Regular;
+     -webkit-font-smoothing: antialiased;
+}
+.p16 {
+    font-family: Resident_Evil_Large;
+     -webkit-font-smoothing: antialiased;
+}
+.p17 {
+    font-family: Roboto-Light;
+     -webkit-font-smoothing: antialiased;
+}
+.p18 {
+    font-family: Skater_Girls_Rock;
+     -webkit-font-smoothing: antialiased;
+}
+.p19 {
+    font-family: transfrm;
+     -webkit-font-smoothing: antialiased;
+}
+.p20 {
+    font-family: UbuntuMono-R;
+     -webkit-font-smoothing: antialiased;
+}
+.p21 {
+    font-family: UKIJTuT;
+     -webkit-font-smoothing: antialiased;
+}
+.p22 {
+    font-family: unispace_bd;
+     -webkit-font-smoothing: antialiased;
+}
+.p23 {
+    font-family: Resident_Evil_Large;
+     -webkit-font-smoothing: antialiased;
+}
+.p24 {
+    font-family: Resident_Evil_Large;
+     -webkit-font-smoothing: antialiased;
+}
+
+
+/*-- BS3 Modified Classes --*/
+.panel {
+    border: none;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.25);
+    border-radius: 1px;
+}
+.panel-body {
+    padding: 0px;
+}
+.panel-heading {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    font-size: 20px;
+}
+.panel-footer {
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.media-body {
+    text-align: center;
+}
+
+
+
+/* FANCY COLLAPSE PANEL STYLES */
+.fancy-collapse-panel .panel-default > .panel-heading {
+    padding: 0;
+
+}
+.fancy-collapse-panel .panel-heading a {
+    padding: 12px 35px 12px 15px;
+    display: inline-block;
+    width: 100%;
+    background-color: #eeeeee;
+    color: #212121;
+    position: relative;
+    text-decoration: none;
+}
+.panel-body {
+ padding: 0px 10px 5px 10px;
+ color: #616161; 
+}
+.fancy-collapse-panel .panel-heading a:after {
+    font-family: "FontAwesome";
+    content: "\f147";
+    position: absolute;
+    right: 20px;
+    font-size: 20px;
+    font-weight: 400;
+    top: 50%;
+    line-height: 1;
+    margin-top: -10px;
+}
+
+.fancy-collapse-panel .panel-heading a.collapsed:after {
+    content: "\f196";
+    border-radius: 1px;
+}
+
+
+
+
+
